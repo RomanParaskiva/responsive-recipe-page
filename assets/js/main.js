@@ -9,7 +9,6 @@ document.addEventListener("DOMContentLoaded", () => {
         iconUnchck = label.querySelector('.unchecked'),
         text = label.querySelector('span:last-child')
 
-
         input.addEventListener('change', e => {
             if (e.target.checked) {
                 iconChck.style.display = 'block'
