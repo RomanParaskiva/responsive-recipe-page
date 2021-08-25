@@ -327,7 +327,7 @@ aside .post__info-block {
     line-height: 10px;
   }
 
-  .checkbox-wrapper label span:last-child.done{
+  .checkbox-wrapper label span.done{
     text-decoration: line-through;
     font-style: italic;
     color: green;
