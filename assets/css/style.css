@@ -126,6 +126,13 @@ main h1 {
   color: #333333;
 }
 
+.checkbox-wrapper label span.done{
+  text-decoration: line-through;
+  font-style: italic;
+  color: green;
+}
+
+
 .checkbox-wrapper label:not(:last-child) {
   margin-bottom: 15px;
 }
@@ -327,12 +334,7 @@ aside .post__info-block {
     line-height: 10px;
   }
 
-  .checkbox-wrapper label span.done{
-    text-decoration: line-through;
-    font-style: italic;
-    color: green;
-  }
-
+  
   aside .post__info-block {
     background: #ffffff;
     box-shadow: none;
